@@ -1,4 +1,4 @@
-FROM drzawlinmg/stable:mltbr.korera
+FROM npt13/zmirr
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
